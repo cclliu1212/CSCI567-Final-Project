@@ -11,14 +11,15 @@ This repository contains the code and models developed for our project on viral 
 - **Baseline Model:**
   - `encode.py`: Script for downloading and encoding DNA sequences into numerical representations.
   - `model_training.py`: Script for training the baseline CNN model.
-  - `evaluate.py`: Script for generating ROC performance metrics and visualizations.
+  - `evaluate.py`: Script for generating ROC performance metrics and visualizations for trained baseline model.
   - `testing.py`: Script for evaluating and generating classfication reports of the trained model on test datasets.
   - `*.sh`: Bash scripts designed for execution on high-performance computing (HPC) services, facilitating the encoding, training, and testing processes.
 
 - **Hybrid Model:**
   - `hybrid_GCN/`: Directory containing scripts and models for the hybrid GCN-CNN-BiLSTM architecture.
     - `GCN_CNN_BiLSTM.py`: Script for training the hybrid model.
-    - `evaluate_gcn.py`: Script for evaluating the hybrid model.
+    - `evaluate_gcn.py`: Script for generating ROC performance metrics and visualizations for trained hybrid model.
+    - `testing_gcn.py`: Script for evaluating and generating classfication reports of the trained hybrid model on test datasets.
     - `*.sh`: Bash scripts for HPC execution related to the hybrid model.
 
 - **Pre-trained Models:**
