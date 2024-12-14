@@ -31,4 +31,4 @@ This repository contains the code and models developed for our project on viral 
 - Ren J, Song K, Deng C, et al. Identifying viruses from metagenomic data using deep learning. *Quant Biol*. 2020 Mar;8(1):64-77.
 - Shang J, Sun Y. CHEER: HierarCHical taxonomic classification for viral mEtagEnomic data via deep leaRning. *Methods*. 2021 May;189:95-103.
 
-For more details, please refer to our [project report](./report.pdf). 
+For more details, please refer to our [project report].
